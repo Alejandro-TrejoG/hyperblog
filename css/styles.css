@@ -1,49 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(146, 146, 146);
 }
 
-.container{
-    width: 70%;
-    margin: 3rem auto;
-    border: 1px solid #DDD;
+.container {
+  width: 70%;
+  margin: 3rem auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
 }
 
-.cabecera{
-    width: 100%;
-    background-color: #2ab914;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 20px;
-    text-align: left;
-    padding: 1rem 2rem;
+.cabecera {
+  width: 100%;
+  background-color: #2ab914;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
 }
 
-.cabecera .tagline{
-    margin-left: 2rem;
-    font-size: 15px;
-    font-weight: 400;
+.cabecera .logo-dragon {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.cabecera .tagline {
+  margin-left: 2rem;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 h2,
-p{
-    margin: 1.5rem 0;
+p {
+  margin: 1.5rem 0;
 }
-p{
-    margin-left: 1rem;
-    margin-right: 1rem;
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.footer{
-    width: 100%;
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
